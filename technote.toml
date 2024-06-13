@@ -1,0 +1,23 @@
+[technote]
+id = "SITCOMTN-131"
+series_id = "SITCOMTN"
+canonical_url = "https://sitcomtn-131.lsst.io"
+github_url = "https://github.com/lsst-sitcom/sitcomtn-131"
+github_default_branch = "main"
+date_created = 2024-06-13T13:00:24Z
+organization.name = "Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Dominique"
+name.family = "Boutigny"
+internal_id = "boutignyd"
+orcid = "https://orcid.org/0000-0003-4887-2150"
+[[technote.authors.affiliations]]
+name = "Université Grenoble-Alpes"
+internal_id = "LAPP"
+address = "Université Savoie Mont Blanc, CNRS/IN2P3 Laboratoire d'Annecy-le-Vieux de Physique des Particules, 9 Chemin de Bellevue – BP 110, F-74940 Annecy-le-Vieux Cedex, France"

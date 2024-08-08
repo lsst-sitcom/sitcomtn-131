@@ -10,7 +10,7 @@ Monitor coupling in M1M3 VMS system and TMA drives together
 
    In the second part, we perform a detailed unvestigation of a peculiar event occuring on June 28th, 2023 around 1:08 am where a strong noise were reported during and after an elevation slew.
 
-   Associated JIRA ticket: SITCOM-784
+   Associated JIRA ticket: `SITCOM-784 <https://rubinobs.atlassian.net/browse/SITCOM-784>`_
 
 The M1M3 Vibration Monitor System (VMS)
 =======================================

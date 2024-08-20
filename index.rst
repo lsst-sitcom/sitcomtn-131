@@ -8,7 +8,7 @@ Monitor coupling in M1M3 VMS system and TMA drives together
    There are two parts in the technote. The first one is a general study where we analyse the vibrations recorded by the VMS during various slews in elevation and azimuth.
    We also analyze the VMS data when the TMA is in tracking mode. 
 
-   In the second part, we perform a detailed unvestigation of a peculiar event occuring on June 28th, 2023 around 1:08 am where a strong noise were reported during and after an elevation slew.
+   In the second part, we perform a detailed investigation of a peculiar event occuring on June 28th, 2023 around 1:08 am where a strong noise were reported during and after an elevation slew.
 
    Associated JIRA ticket: `SITCOM-784 <https://rubinobs.atlassian.net/browse/SITCOM-784>`_
 
@@ -71,7 +71,7 @@ In the following figure we plot the VMS acceleration along x for accelerometer #
 The start and the end of the slew are indicated by the vertical dashed lines. We can identify the vibrations generated during the acceleration and deceleration phases corresponding to an increase 
 of the TMA torque of +/- 500,000 N.m.
 During the TMA rotation at constant speed we see 4 vibration events lasting a few seconds. These vibrations are not associated to torque variations. We can also detect these events on the M1M3 
-angular acceleration around the z axis. The 2 other M1M3 accelerometers do not show significant variations.
+angular acceleration around the z axis. The two other components of the angular acceleration, around x and y, do not show a significant signal associated to the vibration events.
 
 
 .. figure:: /_static/images/overview-2023-12-21-558-.png
@@ -91,7 +91,7 @@ The next plot is a zoom on the VMS data with TMA orientation superimposed. The s
 
    VMS acceleration along x for accelerometer #3 with TMA orientation superimposed. The start and the end of the slew are indicated by the vertical dashed lines.
 
-The following plot shows the acceleration along x, y and z axis recorded by accelerometer #2 (other accelerometers show the same behavior) and HP forces along the same axes.
+The following plot shows the acceleration along x, y and z axis recorded by the VMS accelerometer #2 (other VMS accelerometers show the same behavior) and HP forces along the same axes.
 
 .. figure:: /_static/images/VMS-HP-2023-12-21-558.png
    :name: VMS-HP-2023-12-21-558
@@ -169,7 +169,7 @@ The very low frequency around 1.6 Hz is very likely associated to the accelerati
 Elevation slews
 ---------------
 
-Finding data period with large amplitude elevation only slews is more difficult tahn for azimuth slew. We selected the following one: 
+Finding data period with large amplitude elevation only slews is more difficult than for azimuth slew. We selected the following one: 
 
 * dayObs: 20231221
 * seqNum: 79
@@ -187,7 +187,7 @@ The following plot shows the VMS acceleration along y for accelerometer #2, the 
    VMS acceleration along y for accelerometer #2, TMA Orientation, TMA torque, TMA speed, M1M3 angular acceleration around x, y and z. The start and the end of the slew are indicated
    by the vertical dashed lines.
 
-During the slew and between the acceleration and decelartion phase, we see a few vibration occurences detected by the VMS
+During the slew and between the acceleration and deceleration phase, we see a few vibration occurences detected by the VMS
 
 The following plot shows the acceleration along x, y and z axis recorded by accelerometer #2 and HP forces along the same axes.
 
@@ -204,7 +204,7 @@ Given the scale of the HP forces in y and z directions (much more important than
 
 An analysis of the VMS vibration similar to the one described for the azimuth slew shows that the most prominent glitches appear when the TMA elevation is around:
 [43.4 55.7 60.0 61.3 65.7] degrees. The same analysis on another elevation-only slew (2023-12023 0- seqNum: 205) shows glitches at: [52.7 53.9 55.3 58.1 60.1] degrees. Even if from these
-2 slews, it seems that some glitches appear around the same elvation values, it is impossibe to draw any definitive conclusion with such a low statistics.
+2 slews, it seems that some glitches appear around the same elevation values, it is impossible to draw any definitive conclusion with such a low statistics.
 
 
 Similarly to the azimuth analysis, the following figure shows the spectrogram of the VMS data for the 3 accelerometers and the 3 axes.
@@ -216,13 +216,13 @@ Similarly to the azimuth analysis, the following figure shows the spectrogram of
 
    Spectrograms of the signal recorded by the 3 VMS accelerometers along x, y and z.
 
-The glitches are seen as vertical bands covering the whole frequency range and are visible in mostof the spectrograms.
+The glitches are seen as vertical bands covering the whole frequency range and are visible in most of the spectrograms.
 A few horizontal bands are visible, with one obvious around 40 Hz.
 
 Analysis of VMS data when the TMA is tracking
 ---------------------------------------------
 
-In order to complete this study, we have selected an event where the TMA is tracking after sleing to a target position.
+In order to complete this study, we have selected an event where the TMA is tracking after slewing to a target position.
 
 * dayObs: 20231221
 * seqNum: 535

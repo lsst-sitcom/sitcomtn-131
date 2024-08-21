@@ -327,3 +327,12 @@ Two actions have been taken in order to correct the behavior of the TMA:
 
 #. The force balance system is disabled during slews
 #. The filtering implemented in the TMA control loop has been modified to avoid any re-occurence of this kind of vibration event.
+
+Conclusion
+----------
+
+In this Technical Note, we have described a detailed investigation of two events where strong vibrations were detected by the VMS system in correlation
+with other sensors. We have developped the tools (notebooks) to identify and analyse these events and they are ready to be re-used during the next 
+campaign of measurements with the glass mirrors.
+Unfortunately it was not possible to identify the exact source of these vibrations as the analysis was performed while the cell + surrogate mirror were
+dismounted. Using these notebooks during the future tests of the TMA will probably allow to identify potential problems and to react quickly.
